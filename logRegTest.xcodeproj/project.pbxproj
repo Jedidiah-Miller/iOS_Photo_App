@@ -75,7 +75,6 @@
 		85A5165A21B61AE400685280 /* MessageOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A5165921B61AE400685280 /* MessageOverlay.swift */; };
 		85A9DDD821A4A788001646F5 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9DDD721A4A788001646F5 /* FeedCell.swift */; };
 		85ACDAA320EB39C300042AF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85ACDAA220EB39C200042AF0 /* GoogleService-Info.plist */; };
-		85B061A821BC42D000FD865B /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B061A721BC42D000FD865B /* Menu.xib */; };
 		85B061AA21BC431100FD865B /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B061A921BC431100FD865B /* PreviewVC.swift */; };
 		85B414D820EF141F00E19D92 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B414D720EF141F00E19D92 /* MapViewController.swift */; };
 		85B98CBF21B4FF790038E6AB /* LoginAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B98CBE21B4FF790038E6AB /* LoginAnimations.swift */; };
@@ -208,7 +207,6 @@
 		85A5165921B61AE400685280 /* MessageOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOverlay.swift; sourceTree = "<group>"; };
 		85A9DDD721A4A788001646F5 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		85ACDAA220EB39C200042AF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		85B061A721BC42D000FD865B /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
 		85B061A921BC431100FD865B /* PreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
 		85B414D720EF141F00E19D92 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		85B98CBE21B4FF790038E6AB /* LoginAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimations.swift; sourceTree = "<group>"; };
@@ -399,7 +397,6 @@
 				8509F067216C43A0001C4159 /* Main */,
 				856E06AD216EDC8F005D1999 /* Camera */,
 				85B414D720EF141F00E19D92 /* MapViewController.swift */,
-				85B061A721BC42D000FD865B /* Menu.xib */,
 				85733B242188EA88004C74C5 /* Chat */,
 				858644E321823DD0006421EE /* Self */,
 				854DB24721A2677700791FC6 /* Connect */,
@@ -753,7 +750,6 @@
 				85F0609821505D1200A47D95 /* Memory.scnassets in Resources */,
 				8563635420E9BFF800091C5D /* Main.storyboard in Resources */,
 				85C188D520E9FB4600D00112 /* images.jpeg in Resources */,
-				85B061A821BC42D000FD865B /* Menu.xib in Resources */,
 				85ACDAA320EB39C300042AF0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

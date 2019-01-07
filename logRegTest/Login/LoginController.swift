@@ -157,10 +157,11 @@ class LoginViewController: UIViewController {
         }
 
 
+        // nested function inside of the signup tapped runs after the username was flagged as valid and not taken
 
         func createNewUser() {
 
-            print("got here")
+            // check for a real email that actually exists
 
             Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
                 if user != nil {
