@@ -95,7 +95,7 @@ extension ConvoVC: UITableViewDataSource {
 
 
     // gets called after the messages are initially loaded
-    // more importantly, this fucks shit up
+    // more importantly, causes error 
 
     func reloadNewMessages() {
 

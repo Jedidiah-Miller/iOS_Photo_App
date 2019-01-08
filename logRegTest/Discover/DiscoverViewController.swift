@@ -63,7 +63,7 @@ class DiscoverViewController: UIViewController, UICollectionViewDataSource {
         collectionView.delegate = self
         collectionView.dataSource = self
 
-        collectionView.refreshControl = refreshControl // this fucks shit up
+        collectionView.refreshControl = refreshControl
 
         self.view.accessibilityIgnoresInvertColors = true
 
