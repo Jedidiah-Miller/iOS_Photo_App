@@ -59,7 +59,7 @@ public class MemorySceneView: ARSCNView, ARSCNViewDelegate {
             .showWireframe, // relative geometrey around a surface or object
             .showBoundingBoxes, // box around plane or object
 
-            .showPhysicsShapes,
+//            .showPhysicsShapes,
 //            .showConstraints,
 //            .renderAsWireframe,
 //            .showSkeletons,
