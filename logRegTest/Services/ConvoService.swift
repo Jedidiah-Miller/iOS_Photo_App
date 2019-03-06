@@ -74,7 +74,7 @@ class ConvoService: NSObject {
 
         let newArr = users.sorted { $0.localizedCaseInsensitiveCompare($1) == ComparisonResult.orderedAscending }
 
-        if let index = MessageViewController.convos.index(where: { newArr == sortAlph($0.members) }  ) {
+        if let index = MessageViewController.convos.firstIndex(where: { newArr == sortAlph($0.members) }  ) {
             let foundConvo = MessageViewController.convos[index]
             return completion(foundConvo)
         } else {

@@ -128,7 +128,7 @@ extension ConvoVC: UITableViewDataSource {
 
         guard selectedConvo.members.count > 2,
             let uid = messages[section].first?.sender,
-            let indexForName = selectedConvo.members.index(where: { $0.uid == uid } ),
+            let indexForName = selectedConvo.members.firstIndex(where: { user in user.uid == uid } ),
             let currUserUid = UserService.currUser.uid else { return nil }
 
         let outgoing: Bool = uid == currUserUid

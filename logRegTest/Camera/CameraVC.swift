@@ -121,7 +121,7 @@ class CameraVC: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
 
 
     func removeFocusCircleIfNeeded() {
-        if let i = view.subviews.index(where: { $0 is FocusCircle }) {
+        if let i = view.subviews.firstIndex(where: { $0 is FocusCircle }) {
             let oldFocusCircle = view.subviews[i] as! FocusCircle
             oldFocusCircle.hide()
         }

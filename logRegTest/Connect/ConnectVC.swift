@@ -366,15 +366,3 @@ extension UIImage {
 }
 
 
-
-extension ConnectVC {
-
-    func fadeTopBanner(toAlpha alpha: CGFloat) {
-
-
-
-
-
-    }
-
-}

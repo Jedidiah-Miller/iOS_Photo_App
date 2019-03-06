@@ -74,7 +74,7 @@ class ConvoTableViewCell: UITableViewCell {
 
     func setupProfileImage() {
 
-        guard let i = members.index(where: { $0.uid != UserService.currUser.uid}) else { return }
+        guard let i = members.firstIndex(where: { $0.uid != UserService.currUser.uid}) else { return }
 
         let user = members[i]
 

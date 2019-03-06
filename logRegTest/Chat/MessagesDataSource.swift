@@ -51,7 +51,7 @@ extension MessageViewController: UITableViewDelegate, UITableViewDataSource {
         convos.forEach { convo in
 
             // if the convo is just an update of an existing convo
-            if let index = MessageViewController.convos.index(where: { $0.id == convo.id }) {
+            if let index = MessageViewController.convos.firstIndex(where: { $0.id == convo.id }) {
 
                 // set the existing convo to the updated convo
                 MessageViewController.convos[index] = convo

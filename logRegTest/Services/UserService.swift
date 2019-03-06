@@ -80,7 +80,7 @@ class UserService {
 
     static func findOrObserve(_ uid:String, completion: @escaping ((_ user:User)->())) {
 
-        if let index = storedUsers.index( where: { $0.uid == uid }) {
+        if let index = storedUsers.firstIndex( where: { $0.uid == uid }) {
             let foundUser = storedUsers[index]
             print("Found a user")
             completion(foundUser)
@@ -274,7 +274,7 @@ class UserService {
                         print("ERROR - \(error.localizedDescription)")
                         completion(error)
                     } else {
-                        if let i = following?.index(where: { $0 == user.uid }) {
+                        if let i = following?.firstIndex(where: { $0 == user.uid }) {
                             following?.remove(at: i)
                         }
                         completion(nil)

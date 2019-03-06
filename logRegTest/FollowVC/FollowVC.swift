@@ -381,7 +381,7 @@ extension FollowVC: UICollectionViewDelegateFlowLayout {
 
             var removed = false
 
-            if let index = selectedUsers!.index(where: {$0.uid == cell.user.uid} ) {
+            if let index = selectedUsers!.firstIndex(where: {$0.uid == cell.user.uid} ) {
                 selectedUsers!.remove(at: index)
                 removed = true
             } else {
